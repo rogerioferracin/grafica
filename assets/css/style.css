@@ -64,3 +64,49 @@
      border-top-left-radius: 5px;
      border-top-right-radius: 5px;
 }
+
+/* TILES */
+.dummy {
+    margin-top: 100%;
+    background-color: #CCC;
+}
+.thumbnail {
+    position: absolute;
+    top: 15px;
+    bottom: 0;
+    left: 15px;
+    right: 0;
+    text-align:center;
+    padding-top:calc(50% - 30px);
+    font-size: 1.5em;
+}
+
+.thumbnail:hover {
+	text-decoration: none;
+}
+
+.bkg-color-orange {
+	background-color: #e7b92c;
+}
+
+.bkg-color-green {
+	background-color: #71bf48;
+}
+
+.bkg-color-blue {
+	background-color: #0072bc;
+	color: #FFFFFF;
+}
+
+.bkg-color-blue:hover {
+	background-color: #005baa;
+	color: #FFFFFF;
+}
+
+.bkg-color-red {
+	background-color: #ef4123;
+}
+
+.bkg-color-gray {
+	background-color: #CCC;
+}
